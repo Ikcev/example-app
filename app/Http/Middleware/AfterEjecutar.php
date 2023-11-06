@@ -6,9 +6,8 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Foundation\Http\Middleware\AfterEjecutar as Middleware;
 
-class AfterEjecutar extends Middleware
+class AfterEjecutar
 {
     /**
      * Handle an incoming request.

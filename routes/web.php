@@ -19,7 +19,7 @@ use App\Http\Controllers\EnviarDatosControlador;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->middleware('EnsureTokenIsValid','AfterEjecutar');
 
 Route::get('/hola', function(){
     return view('hola');

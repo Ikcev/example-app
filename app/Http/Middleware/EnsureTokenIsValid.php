@@ -6,9 +6,8 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Log;
-use App\Http\Middleware\EnsureTokenIsValid as Middleware;
  
-class EnsureTokenIsValid extends Middleware
+class EnsureTokenIsValid
 {
     /**
      * Handle an incoming request.
